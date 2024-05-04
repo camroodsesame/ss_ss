@@ -1,0 +1,29 @@
+h1{
+    color: rgb(98, 6, 6);
+    text-align: center;
+    -webkit-text-stroke: .4px rgba(75, 59, 32, 0.474);
+    font-weight: bolder;
+    font-size: 3em;
+
+}
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f8/Abdel_Fattah_el-Sisi_-_2023.jpg');
+    background-size: 16.6%;
+    background-repeat:repeat; 
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 5px; /* Adjust the gap between grid items as needed */
+    text-align: center;
+}
+
+.grid-item {
+    color: rgb(239, 201, 201);
+    font-size: 2.5em;
+    font-weight: bolder;
+    -webkit-text-stroke: .4px rgb(75, 59, 32);
+    background-color: #f0f0f000; /* Adjust background color as needed */
+    padding: 5px; /* Adjust padding as needed */
+    text-align: center; /* Center the text */
+}
