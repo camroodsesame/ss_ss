@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
         for (let i = 0; i < 6; i++) {
             const gridItem = document.createElement("div");
             gridItem.classList.add("grid-item");
-            gridItem.textContent = "كسم السيسي";
+            gridItem.textContent = "ـ%* السيسي";
             gridContainer.appendChild(gridItem);
         }
 
